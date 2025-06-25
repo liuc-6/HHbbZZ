@@ -1,0 +1,280 @@
++JobFlavour   = "testmatch"
+Executable = submit_condor_jobs_lnujj_SkimNanoAOD.sh
+Universe = vanilla
+Notification = ERROR
+Should_Transfer_Files = YES
+WhenToTransferOutput = ON_EXIT
+Transfer_Input_Files = keep_and_drop.txt,  post_proc.py
+x509userproxy = /afs/cern.ch/user/l/liuc/x509up_u177472
+requirements = TARGET.OpSysAndVer =?= "AlmaLinux9"
+MY.WantOS = "el9"
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v1/2540000/4fb597df-2acd-4ee8-bf4b-3129cd472b47.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD 4fb597df-2acd-4ee8-bf4b-3129cd472b47
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v1/2540000/2bfe2589-1ff9-494b-9640-c158531daf65.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD 2bfe2589-1ff9-494b-9640-c158531daf65
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v1/2540000/d0856937-fb89-4213-9c18-f9b0e8246a7c.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD d0856937-fb89-4213-9c18-f9b0e8246a7c
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v1/2540000/e8bfebc0-a400-4de2-99af-75e0bf9108c6.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD e8bfebc0-a400-4de2-99af-75e0bf9108c6
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v1/2540000/7a99c637-ca6f-4c01-905a-04a5e0bcc6b6.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD 7a99c637-ca6f-4c01-905a-04a5e0bcc6b6
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v1/2540000/9fbef2e1-0058-4214-9e91-b63d4c2e7a2f.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD 9fbef2e1-0058-4214-9e91-b63d4c2e7a2f
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v1/2540000/de29d003-20ca-4eec-9021-0811d5924642.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD de29d003-20ca-4eec-9021-0811d5924642
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v1/2540000/ca26bc46-718b-4008-86ca-afbe9c0b8ff5.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD ca26bc46-718b-4008-86ca-afbe9c0b8ff5
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v1/2540000/3ef8587c-661c-4920-8ebb-064d925a096e.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD 3ef8587c-661c-4920-8ebb-064d925a096e
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v1/2540000/9e567fc4-7c06-4ae7-a99d-b8920303b4ca.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD 9e567fc4-7c06-4ae7-a99d-b8920303b4ca
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v1/2540000/711b507b-548e-4500-bc75-7619e68e2019.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD 711b507b-548e-4500-bc75-7619e68e2019
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v1/2540000/b8418084-3a4c-4b57-987d-5a009f3190a4.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD b8418084-3a4c-4b57-987d-5a009f3190a4
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v1/2540000/a1149aad-c96a-4a77-8d0d-8f91c87b2247.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD a1149aad-c96a-4a77-8d0d-8f91c87b2247
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v1/50000/bb4d9b08-a976-4a5d-b4d7-097723b9961c.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD bb4d9b08-a976-4a5d-b4d7-097723b9961c
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v1/50000/a9c51e04-5218-482e-b6fb-54e9a2bd0095.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD a9c51e04-5218-482e-b6fb-54e9a2bd0095
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v1/50000/c35e8810-7527-445e-8444-174ff87ff62e.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD c35e8810-7527-445e-8444-174ff87ff62e
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v1/50000/4de62956-99de-4d17-ab0f-b504b77c20c3.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD 4de62956-99de-4d17-ab0f-b504b77c20c3
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v1/50000/c42970a6-cf3f-494f-bf62-734b7fa46259.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD c42970a6-cf3f-494f-bf62-734b7fa46259
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v1/50000/b056126d-99f2-4a48-ba8c-dbffe44d6791.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD b056126d-99f2-4a48-ba8c-dbffe44d6791
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v1/50000/7ffef3a4-f0c1-4552-9172-2840b2e3d923.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD 7ffef3a4-f0c1-4552-9172-2840b2e3d923
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v1/50000/25f90483-7d46-45a0-9966-bf59efbd7e15.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD 25f90483-7d46-45a0-9966-bf59efbd7e15
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v1/50000/131cb760-bb6e-4f61-9ca7-85bf566c7aa6.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD 131cb760-bb6e-4f61-9ca7-85bf566c7aa6
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v1/2550000/bf77e0f0-7145-4585-970a-2054bc18b371.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD bf77e0f0-7145-4585-970a-2054bc18b371
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v1/2820000/bf9e5d8e-ef6e-472e-ae09-04dd2ab18bcd.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD bf9e5d8e-ef6e-472e-ae09-04dd2ab18bcd
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v1/2550000/e6dad972-1743-4193-bd31-a7eef824967c.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD e6dad972-1743-4193-bd31-a7eef824967c
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v1/2550000/c795dab6-b7c1-424a-8499-8d7bea3ae74e.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD c795dab6-b7c1-424a-8499-8d7bea3ae74e
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v1/2550000/abaed4d4-e9ec-455b-9c58-b8659e1e8bd7.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD abaed4d4-e9ec-455b-9c58-b8659e1e8bd7
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v1/2550000/d15e9c53-3f32-4257-bff5-0a120463e685.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD d15e9c53-3f32-4257-bff5-0a120463e685
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v1/50000/2a647dd9-ebd3-4816-9b0f-08d576e05c26.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD 2a647dd9-ebd3-4816-9b0f-08d576e05c26
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_postEE_v6-v1/50000/95ffcfc8-aecd-41fb-ba5a-c7f602048d33.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22EENanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD 95ffcfc8-aecd-41fb-ba5a-c7f602048d33
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/50000/2601d03b-552a-46b9-ae7b-3d399d8148e7.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD 2601d03b-552a-46b9-ae7b-3d399d8148e7
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/50000/92bed3fa-b41e-4942-b97c-85aea3cc203e.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD 92bed3fa-b41e-4942-b97c-85aea3cc203e
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/50000/27714298-1d7a-4d67-b800-c896a01626c4.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD 27714298-1d7a-4d67-b800-c896a01626c4
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/50000/4cbd4ce7-53f5-4b88-ba09-982361949933.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD 4cbd4ce7-53f5-4b88-ba09-982361949933
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/50000/4bc8b80a-f90a-438b-967e-9f7da158b2f1.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD 4bc8b80a-f90a-438b-967e-9f7da158b2f1
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/50000/cc01ab50-34da-49dd-b301-a4d46aeab4d3.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD cc01ab50-34da-49dd-b301-a4d46aeab4d3
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/50000/e784918a-c1f1-41fa-87a1-1c867f896344.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD e784918a-c1f1-41fa-87a1-1c867f896344
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/50000/aea1b61d-7911-4f4f-8498-ae590a7c3420.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD aea1b61d-7911-4f4f-8498-ae590a7c3420
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/50000/036d964e-ce46-4541-940c-90dd480f8efa.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD 036d964e-ce46-4541-940c-90dd480f8efa
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/50000/9bc82419-3e31-4966-8fa4-95f6999dfe7d.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD 9bc82419-3e31-4966-8fa4-95f6999dfe7d
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/50000/7b353932-4900-4fb3-a51b-7063c490e83f.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD 7b353932-4900-4fb3-a51b-7063c490e83f
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/50000/1f47b29a-694f-44f6-a869-0162d1b8f23d.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD 1f47b29a-694f-44f6-a869-0162d1b8f23d
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/50000/7dfcd595-2bdc-4932-9221-803471aa1fe5.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD 7dfcd595-2bdc-4932-9221-803471aa1fe5
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/50000/2f96af64-9e4e-4388-9163-546e68149f3a.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD 2f96af64-9e4e-4388-9163-546e68149f3a
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/50000/83fc212e-a162-47c6-9bc5-7e174be4d9c0.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD 83fc212e-a162-47c6-9bc5-7e174be4d9c0
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/50000/b986a8d5-dd3f-42ba-939a-b20a017f4b87.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD b986a8d5-dd3f-42ba-939a-b20a017f4b87
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/50000/5b60e201-fc5e-49bc-ad75-36c6e89ba33a.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD 5b60e201-fc5e-49bc-ad75-36c6e89ba33a
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/50000/f619a90c-2390-422d-95f6-ad926f9c1216.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD f619a90c-2390-422d-95f6-ad926f9c1216
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/50000/f3e2c96c-6794-49d3-90d6-1c7f5b5b7422.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD f3e2c96c-6794-49d3-90d6-1c7f5b5b7422
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/50000/2e40103c-dc7e-435d-8e19-9a2704dbe4cb.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD 2e40103c-dc7e-435d-8e19-9a2704dbe4cb
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/50000/d85fb273-5417-4b71-9dec-0097f3a85cd1.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD d85fb273-5417-4b71-9dec-0097f3a85cd1
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/50000/f7707ec2-02a0-4d84-bdb7-f9b6646f75f5.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD f7707ec2-02a0-4d84-bdb7-f9b6646f75f5
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/50000/55997ee3-a2fd-491b-8a05-f23a09dc2aee.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD 55997ee3-a2fd-491b-8a05-f23a09dc2aee
+Queue 
+Output = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).stdout
+Error  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).err
+Log  = ./condor_logs/SkimNanoAOD/250624_173639/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8_$(Process).log
+Arguments = root://cms-xrd-global.cern.ch//store/mc/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/NANOAODSIM/130X_mcRun3_2022_realistic_v5-v2/50000/2b0d2873-79a3-4d01-b8e8-cd3fd33f7e34.root /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD/Run3Summer22NanoAODv12/GluGlutoHHto2B2Zto4L_kl-1p00_kt-1p00_c2-0p00_TuneCP5_13p6TeV_powheg-pythia8/250624_173639  /eos/user/l/liuc/nanoAOD_ntuples/SkimNanoAOD 2b0d2873-79a3-4d01-b8e8-cd3fd33f7e34
+Queue 
